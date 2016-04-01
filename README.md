@@ -1,2 +1,0 @@
-# JobsiFitPro
-Senior Project - Website
