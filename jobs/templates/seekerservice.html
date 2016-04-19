@@ -1,0 +1,39 @@
+{% extends "seekerbase.html" %}
+
+{% block content %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<h1>Customer Service</h1>
+</head>
+<body>
+
+<div class="container">
+  <h3>We strive to make your life easier!</h3>
+  <ul class="list-inline">
+    <li><a href="#" title="24/7 Toll Free Number" data-toggle="popover" data-placement="top" data-content="1-800-943-2568">Customer Service Number</a></li>
+    <li><a href="#" title="Email Customer Service" data-toggle="popover" data-placement="bottom" data-content="jobsifitadmin@jobsifit.com">Customer Service Email</a></li>
+
+  </ul>
+</div>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+</script>
+<br><br>
+</body>
+</html>
+
+
+
+        {% endblock %}

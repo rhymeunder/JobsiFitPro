@@ -1,0 +1,133 @@
+{% extends "seekerbase.html" %}
+
+{% block content %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FAQ</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  
+  
+  
+<h1>Seeker FAQ</h1>
+
+
+  <!-- Trigger the modal with a button -->
+  <p>How does this all work?
+  </p>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#info">view FAQ</button>
+ 
+  
+  <!-- Modal -->
+  <div class="modal fade" id="info" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">How does this all work?</h4>
+        </div>
+        <div class="modal-body">
+          <p>Employers' Human Resources representitives can login and search for resumes.  </p>
+            <p>All personal information is meant to be omitted except for your first name.</p>
+            <p>You can see how many companies have looked at your profile from your dashboard</p>
+            <P>as well as any messages that have been sent to you.</P>
+            <p>The last resume update and your 30 second video clip (if uploaded) is on your dashboard. </p>
+            <p>Once you have at least your resume uploaded, you can sit back and relax!</p>
+            <p>Make sure your notifications have your email and text to get notified when a employer</p>
+            <p>has sent you a message.  The email will contain a message with the company information and</p>
+            <p>a interview id which you relay to Human Resources when you call.  Easy!   </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+<br>
+  <!-- Trigger the modal with a button -->
+  <p>What notifications can I receive?</p>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#notifications">view FAQ</button>
+ 
+  
+  <!-- Modal -->
+  <div class="modal fade" id="notifications" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Notifications</h4>
+        </div>
+        <div class="modal-body">
+          <p>Currently we support email and text message alerts when a interview message has been received.  </p>
+            <p>"Notifications" in "Account Settings" can help set it up.</p>
+           
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+<br>
+  <!-- Trigger the modal with a button -->
+  <p>How much will I be charged?
+  </p>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#howmuchcharged">view FAQ</button>
+ 
+  
+  <!-- Modal -->
+  <div class="modal fade" id="howmuchcharged" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">How much will I be charged?</h4>
+        </div>
+        <div class="modal-body">
+          <p>You will not be charged until you are hired!</p>
+            <p></p>
+            <p>The following prices are currently being charged</p>
+            <P>$9.99 for a successful hire from our website</P>
+            
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+<br>
+
+
+</body>
+</html>
+
+        {% endblock %}

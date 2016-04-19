@@ -5,9 +5,9 @@ from django.contrib import admin
 urlpatterns = [
     #url(r'^bfapp/', include('bfapp.urls')),
    url(r'^admin/', include(admin.site.urls)),  #like its own app
-    url(r'^$', views.index, name='index'),
+  #  url(r'^$', views.index, name='index'),
     url(r'^contact/', views.contact, name='contact'),
-    url(r'^$', views.home, name='home'),
+    #url(r'^$', views.dashboard, name='dashboard'),
      #url(r'^users/login/$', 'django.contrib.auth.views.login', {'template_name': 'login.html'}),
 ]
 

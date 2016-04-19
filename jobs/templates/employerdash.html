@@ -1,0 +1,40 @@
+{% extends "employerbase.html" %}
+
+{% block content %}
+
+  <h3>Hello (Company name), Welcome to your dashboard!</h3><br>
+<p>This table represents your resume selections....</p>
+<br>
+<br>
+<table class="table table-condensed">
+    <thead>
+      <tr>
+		<th>MemberID:</th>
+        <th>First name:</th>
+        <th>MessageID (if applicable):</th>
+        <th>Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="info">
+        <td>91024</td>
+        <td>John</td>
+        <td>1000</td>
+		<td>Starred or Chosen</td>
+      </tr>
+      <tr class="info">
+     <td>91025</td>
+        <td>Larry</td>
+        <td>1000</td>
+		<td>Starred or Chosen</td>
+      </tr>
+      <tr class="info">
+        <td>91031</td>
+        <td>Sarah</td>
+        <td>1000</td>
+		<td>Starred or Chosen</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+        {% endblock %}

@@ -6,13 +6,13 @@ from django.contrib.auth.decorators import login_required
 from django.views.decorators.csrf import csrf_protect
 
 # Create your views here.
-@login_required(login_url="login/")
-def home(request):
-    return render(request, "home.html")
+#@login_required(login_url="login/")
+#def dashboard(request):  #was home
+   # return render(request, "jobs/dashboard.html") #was home.html
 
-@login_required
-def index(request) :
-    return render(request, 'personal/home.html')
+#@login_required
+#def index(request) :
+#   return render(request, 'jobs/dashboard.html') #was personal home.html
 @login_required
 def contact(request) :
     return render(request, 'personal/basic.html', {'content':['If you would like to contact our company please email us at', 'jobsifit@gmail.com']})

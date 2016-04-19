@@ -1,0 +1,132 @@
+{% extends "employerbase.html" %}
+
+{% block content %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FAQ</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<h1>Employer FAQ</h1>
+
+
+  <!-- Trigger the modal with a button -->
+  <p>How does this all work?
+  </p>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#info">view FAQ</button>
+ 
+  
+  <!-- Modal -->
+  <div class="modal fade" id="info" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">How does this all work?</h4>
+        </div>
+        <div class="modal-body">
+          <p>Qualified job-seekers have uploaded their resumes and/or 30 second video clips  </p>
+            <p>All personal information is meant to be omitted except for their first name.</p>
+            <p>If you as an employer are interested in interviewing with the candidate,</p>
+            <P>you can select the employee and JobsiFit will automatically send a message</P>
+            <p>to the employee with a customized message ID, interview ID, and your contact information.</p>
+            <p>Basic candidate information will be sent to the HR rep in a email</p>
+            <p>The interview ID is the employers way of knowing it's the right person.</p>
+            <p>A invoice will be sent once both parties have verified a successful hire.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+<br>
+
+  <!-- Trigger the modal with a button -->
+  <p>What is the difference between "Select employee and send a message" and "Save to favorites"?
+  </p>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#selectvsfavorites">view FAQ</button>
+ 
+  
+  <!-- Modal -->
+  <div class="modal fade" id="selectvsfavorites" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Selection vs. Favorites</h4>
+        </div>
+        <div class="modal-body">
+          <p>Selecting "Save to favorites" allows you to save the user for later.  </p>
+            <p>Selecting "Select job-seeker and send message will charge your account"</p>
+            <p>and allow you to send your automated message with your company details</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+<br>
+  <!-- Trigger the modal with a button -->
+  <p>How much will I be charged?
+  </p>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#howmuchcharged">view FAQ</button>
+ 
+  
+  <!-- Modal -->
+  <div class="modal fade" id="howmuchcharged" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">How much will I be charged?</h4>
+        </div>
+        <div class="modal-body">
+          <p>Selecting "Save to favorites" does not charge your account. </p>
+            <p>Selecting "Select job-seeker and send message will charge your account"</p>
+            <p>The following prices are currently being charged</p>
+            <P>$50 for a successful hire from our website</P>
+            <p>$25 for every additional hire for that month</p>
+            <p>$50 charge for each</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+<br>
+
+
+</body>
+</html>
+
+        {% endblock %}

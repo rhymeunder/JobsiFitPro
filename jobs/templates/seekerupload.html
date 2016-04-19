@@ -1,0 +1,46 @@
+{% extends "seekerbase.html" %}
+
+{%	block content	 %}
+  
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Resume Location</h2>
+  
+  <p>Search your computer for the Resume.</p>                                          
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Computer
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Resume.docx</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+  <h2>Video Record</h2>
+  
+  <p>Click here to record your video</p>                                          
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Record with VisualPlus
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Opens in new window</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
+<br><br>
+
+{%		endblock		%}
